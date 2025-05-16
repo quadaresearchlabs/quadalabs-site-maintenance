@@ -1,0 +1,8 @@
+[build]
+  command = "echo 'Skipping build for maintenance mode'"
+  publish = "public"
+
+[[redirects]]
+  from = "/*"
+  to = "/maintenance.html"
+  status = 200
